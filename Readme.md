@@ -23,12 +23,20 @@ Versão 1.0.1: "Configurações da Estrutura do Projeto"
 
  |_ Steps.
 
-2 - Coniguração do Arquivo Index.js dentro da pasta Plugins.
+2 - Configuração do Arquivo Index.js dentro da pasta Plugins.
 
-3 - Coniguração do Arquivo Index.js dentro da pasta Support.
+3 - Configuração do Arquivo Index.js dentro da pasta Support.
 
 4 - Configuração do Arquivo Cypress.json.
 
 5 - Criação e Configuração do arquivo Package.json.
 
 6 - Instalação do mochawesome com o comando npm install mochawesome.
+
+Versão 1.0.2: "Confgurações do primeiro cenário"
+
+1 - Criação dos arquivos LoginElements, LoginPage e LoginSteps
+
+2 - Criação do cenário login.feature
+
+3 - Mapeamento dos elementos para criação do cenário
