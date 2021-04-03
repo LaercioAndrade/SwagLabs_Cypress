@@ -16,6 +16,7 @@ Versão 1.0.0: "Instalação do Cypress"
 Versão 1.0.1: "Configurações da Estrutura do Projeto"
 
 1 - Criação das Pastas dentro da Pasta Support.
+
  |_ Elements.
 
  |_ PageObjects.
