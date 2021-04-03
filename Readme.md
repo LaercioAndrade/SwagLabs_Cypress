@@ -17,8 +17,11 @@ Versão 1.0.1: "Configurações da Estrutura do Projeto"
 
 1 - Criação das Pastas dentro da Pasta Support.
  |_ Elements.
+
  |_ PageObjects.
+
  |_ Steps.
+
 2 - Coniguração do Arquivo Index.js dentro da pasta Plugins.
 
 3 - Coniguração do Arquivo Index.js dentro da pasta Support.
@@ -26,4 +29,5 @@ Versão 1.0.1: "Configurações da Estrutura do Projeto"
 4 - Configuração do Arquivo Cypress.json.
 
 5 - Criação e Configuração do arquivo Package.json.
+
 6 - Instalação do mochawesome com o comando npm install mochawesome.
