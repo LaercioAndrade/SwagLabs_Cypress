@@ -35,6 +35,12 @@ class TestPage{
         cy.get(Elements.msguserbloq()).contains("Epic sadface: Sorry, this user has been locked out.")
         cy.screenshot()
     }
+
+    //CT03
+    preencherusernameproblem(){
+        cy.get(Elements.username()).type("problem_user")
+    }
+
 }
 
 export default TestPage;

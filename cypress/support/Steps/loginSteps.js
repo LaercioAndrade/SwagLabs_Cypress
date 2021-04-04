@@ -28,3 +28,14 @@ When("informo um usuario bloqueado", () => {
 Then("valido se aparece a Mensagem de usuario bloqueado", () => {
     Login.mensagemuserbloq();
 }) 
+
+//CT03 Usuario com problema
+When("informo um usuario com problema", () => {
+    Login.preencherusernameproblem();
+    Login.preenchersenha();
+    Login.clicarbotaologin();
+})
+
+Then("valido se o login e realizado com sucesso com as imagens dos produtos com erro", () => {
+    Login.validarlogin();
+}) 
