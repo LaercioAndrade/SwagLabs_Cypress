@@ -7,7 +7,7 @@ const NavegadorUrl = Cypress.config("baseUrl")
 class TestPage{
 
     abrirUrl(){
-        cy.visit(NavegadorURL)
+        cy.visit(NavegadorUrl)
     }
 
     preencherusername(){
