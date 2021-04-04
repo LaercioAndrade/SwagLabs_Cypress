@@ -33,3 +33,34 @@ Then("valido se os produtos foram adicionados com sucesso no carrinho", () => {
     Compra.acessarcarrinho();
     Compra.validaritenscarrinho();
 })
+
+//CT03
+When("acesso o produto", () => {
+    Compra.clicarprodutobolsa();
+})
+
+Then("valido se e possivel adicionar o produto no carrinho", () => {
+    Compra.addprodutocarrinho();
+    Compra.acessarcarrinho();
+    Compra.validaritembolsanocarrinho();
+})
+
+//CT04
+And("adiciono um produto no carrinho", () => {
+    Compra.adicionarbolsanocarrinho();
+    Compra.acessarcarrinho();
+})
+
+And("valido se o produto foi adicionado no carrinho", () => {
+    Compra.validaritembolsanocarrinho();
+})
+
+When("volto na home do Site", () => {
+    Compra.clicarbotaocontinueshoppping();
+})
+
+Then("valido se e possivel adicionar outro produto no carrinho", () => {
+    Compra.adicionarcamisetablacknocarrinho();
+    Compra.acessarcarrinho();
+    Compra.validaritenscarrinho();
+})

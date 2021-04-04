@@ -28,7 +28,18 @@ validaritenscarrinho(){
     cy.screenshot()
 }
 
+//CT03
+clicarprodutobolsa(){
+    cy.get(Compra.clicarprodutobolsa()).click()
+    cy.screenshot()
+}
 
+addprodutocarrinho(){
+    cy.get(Compra.addprodutonabolsa()).click();
+}
 
+clicarbotaocontinueshoppping(){
+    cy.get(Compra.btncontinueshopping()).click();
+}
 }
 export default CompraPage;
