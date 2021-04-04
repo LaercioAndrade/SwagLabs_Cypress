@@ -1,6 +1,3 @@
-#Projeto para praticar Automação
-#Author: Laércio Gonçalves de Andrade
-
 Feature: Acessar a tela de Login
 
 Scenario: Realizar Login com usuario valido

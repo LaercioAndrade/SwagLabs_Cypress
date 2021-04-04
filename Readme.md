@@ -39,4 +39,12 @@ Versão 1.0.2: "Confgurações do primeiro cenário"
 
 2 - Criação do cenário login.feature
 
-3 - Mapeamento dos elementos para criação do cenário
+3 - Mapeamento dos elementos para criação do cenário no arquivo loginElements
+
+4 - Configuração do arquivo LoginPage
+
+5 - Configuração do arquivo LoginSteps
+
+6 - Iniciar Test e validar se o test validou
+
+7 - Verificar Relatório e Screenshot
