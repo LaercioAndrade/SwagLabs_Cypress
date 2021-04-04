@@ -1,3 +1,4 @@
+/// <reference types="cypress" />
 import compraElements from '..//Elements/compraElements'
 const Compra = new compraElements
 
@@ -71,8 +72,19 @@ clicarbotaofinish(){
 }
 
 validarcompra(){
-    cy.get(Compra.title()).contains("Checkout: Overview")
+    cy.get(Compra.title()).contains("Checkout: Complete!")
     cy.screenshot()
 }
+
+
+removeritembolsadocarrinho(){
+    cy.get(Compra.removerbolsadocarrinho()).click()
+}
+
+carrinhovazio(){
+    cy.get(Compra.title()).contains("Your Cart")
+    cy.screenshot()
+}
+
 }
 export default CompraPage;

@@ -79,4 +79,16 @@ Then("valido se e possivel finalizar a compra", () => {
     Compra.botaocontinue();
     Compra.validartelacheckout();
     Compra.clicarbotaofinish();
+    Compra.validarcompra();
+})
+
+//CT06
+When("adiciono o produto bolsa no carrinho", () => {
+    Compra.adicionarbolsanocarrinho();
+    Compra.acessarcarrinho();
+})
+
+Then("valido se e possivel remover o produto do carrinho", () => {
+    Compra.removeritembolsadocarrinho();
+    Compra.carrinhovazio();
 })

@@ -31,3 +31,9 @@ Scenario: Finalizar Compra do produto bolsa
     Given  que realizo login no Site
     When   adiciono um produto no carrinho
     Then   valido se e possivel finalizar a compra
+
+@CT06
+Scenario: Remover Produto do carrinho
+    Given que realizo login no Site
+    When  adiciono o produto bolsa no carrinho
+    Then  valido se e possivel remover o produto do carrinho

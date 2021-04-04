@@ -20,5 +20,7 @@ btncontinue = () => {return '#continue'}
 title = () => {return '.title'}
 btnfinish = ()  => {return '#finish'}
 
+removerbolsadocarrinho = () => {return '#remove-sauce-labs-backpack'}
+
 }
 export default compraElements;
