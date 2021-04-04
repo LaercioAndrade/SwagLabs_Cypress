@@ -41,5 +41,38 @@ addprodutocarrinho(){
 clicarbotaocontinueshoppping(){
     cy.get(Compra.btncontinueshopping()).click();
 }
+
+clicarbotaocheckout(){
+    cy.get(Compra.btncheckout()).click();
+}
+
+firstname(){
+    cy.get(Compra.firstname()).type("Laércio")
+}
+
+lastname(){
+    cy.get(Compra.lastname()).type("Andrade")
+}
+
+cep(){
+    cy.get(Compra.cep()).type("Avenida Paulista - São Paulo - Brasil")
+}
+
+botaocontinue(){
+    cy.get(Compra.btncontinue()).click()
+}
+
+validartelacheckout(){
+    cy.get(Compra.title()).contains("Checkout: Overview")
+}
+
+clicarbotaofinish(){
+    cy.get(Compra.btnfinish()).click()
+}
+
+validarcompra(){
+    cy.get(Compra.title()).contains("Checkout: Overview")
+    cy.screenshot()
+}
 }
 export default CompraPage;

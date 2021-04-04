@@ -25,3 +25,9 @@ Scenario: Adicionar produto no carrinho e voltar no shooping e adicionar mais um
     And   valido se o produto foi adicionado no carrinho
     When  volto na home do Site
     Then  valido se e possivel adicionar outro produto no carrinho
+
+@CT05
+Scenario: Finalizar Compra do produto bolsa
+    Given  que realizo login no Site
+    When   adiciono um produto no carrinho
+    Then   valido se e possivel finalizar a compra

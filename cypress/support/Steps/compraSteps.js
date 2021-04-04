@@ -64,3 +64,19 @@ Then("valido se e possivel adicionar outro produto no carrinho", () => {
     Compra.acessarcarrinho();
     Compra.validaritenscarrinho();
 })
+
+//CT05
+When("adiciono um prduto no carrinho", () => {
+    Compra.adicionarbolsanocarrinho();
+    Compra.acessarcarrinho();
+})
+
+Then("valido se e possivel finalizar a compra", () => {
+    Compra.clicarbotaocheckout();
+    Compra.firstname();
+    Compra.lastname();
+    Compra.cep();
+    Compra.botaocontinue();
+    Compra.validartelacheckout();
+    Compra.clicarbotaofinish();
+})

@@ -11,5 +11,14 @@ addprodutonabolsa = () => {return '#add-to-cart-sauce-labs-backpack'}
 
 btncontinueshopping = () => {return '#continue-shopping'}
 
+btncheckout = () => {return '#checkout'}
+
+firstname = () => {return '#first-name'}
+lastname = ()=> {return '#last-name'}
+cep = () => {return '#postal-code'}
+btncontinue = () => {return '#continue'}
+title = () => {return '.title'}
+btnfinish = ()  => {return '#finish'}
+
 }
 export default compraElements;
