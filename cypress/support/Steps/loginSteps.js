@@ -59,5 +59,16 @@ When("informo a senha incorreta", () => {
 })
     
 Then("valido se aparece a mensagem de senha incorreta", () => {
-    Login.msgsenhaincorreta();
+    Login.msgloginincorreto();
+})
+
+//CT06 Usuario Invalid
+When("informo um usuario Invalido", () => {
+    Login.usuarioinvalido();
+    Login.preenchersenha();
+    Login.clicarbotaologin();
+})
+
+Then("valido se aparece a mensagem de usuario invalido", () => {
+    Login.msgloginincorreto();
 })

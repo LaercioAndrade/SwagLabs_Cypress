@@ -56,9 +56,15 @@ class TestPage{
         cy.get(Elements.password()).type("123")
     }
 
-    msgsenhaincorreta(){
+    msgloginincorreto(){
         cy.get(Elements.msgsenhainv()).contains("Epic sadface: Username and password do not match any user in this service")
     }
+
+    //CT06
+    usuarioinvalido(){
+        cy.get(Elements.username()).type("teste")
+    }
+
 
 
 }

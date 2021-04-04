@@ -29,3 +29,9 @@ Scenario: Informar Senha invalida
     Given que acesso o site Swag Labs
     When  informo a senha incorreta
     Then  valido se aparece a mensagem de senha incorreta
+
+@CT06
+Scenario: Informar Usuario Invalido
+    Given que acesso o site Swag Labs
+    When  informo um usuario Invalido
+    Then  valido se aparece a mensagem de usuario invalido
