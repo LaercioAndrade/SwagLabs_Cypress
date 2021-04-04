@@ -68,3 +68,13 @@ Versão 1.0.4: "Conclusão da Feature Logout"
 3 - Executar os testes
 
 4 - Validar relatório Dinamico
+
+Versão 1.0.5: "Conclusão da Feature Compra"
+
+1 - Criação da Feature Compra
+
+2 - Configuração dos arquivos CompraElements, CompraPage e CompraSteps
+
+3 - Executar os testes
+
+4 - Validar relatório Dinamico
