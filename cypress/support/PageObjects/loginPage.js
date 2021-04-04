@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 import loginElements from '..//Elements/loginElements'
 const Elements = new loginElements
-const NavegadorURL = Cypress.config("baseUrl")
+const NavegadorUrl = Cypress.config("baseUrl")
 
 
 class TestPage{
