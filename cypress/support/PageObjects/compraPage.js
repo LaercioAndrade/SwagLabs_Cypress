@@ -4,5 +4,31 @@ const Compra = new compraElements
 
 class CompraPage{
 
+//CT01    
+adicionarbolsanocarrinho(){
+    cy.get(Compra.addtocartbolsa()).click()
+}
+
+acessarcarrinho(){
+    cy.get(Compra.acessarcarrinho()).click()
+}
+
+validaritembolsanocarrinho(){
+    cy.get(Compra.validarprodutonocarrinho()).contains("Sauce Labs Backpack")
+    cy.screenshot()
+}
+
+//CT02
+adicionarcamisetablacknocarrinho(){
+    cy.get(Compra.addtocartcamisetablack()).click()
+}
+validaritenscarrinho(){
+    cy.get(Compra.validarprodutonocarrinho()).contains("Sauce Labs Backpack")
+    cy.get(Compra.validarprodutonocarrinho()).contains("Sauce Labs Bolt T-Shirt")
+    cy.screenshot()
+}
+
+
+
 }
 export default CompraPage;
