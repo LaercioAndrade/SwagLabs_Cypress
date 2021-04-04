@@ -55,4 +55,16 @@ Versão 1.0.3: "Configuração da Feature Login"
 
 2 - Configuração dos arquivos LoginElements, LoginPage e LoginSteps
 
-3 - Validar relatório Dinamico
+3 - Executar os testes
+
+4 - Validar relatório Dinamico
+
+Versão 1.0.4: "Conclusão da Feature Logout"
+
+1 - Criação da Feature Logout
+
+2 - Configuração dos arquivos LogoutElements, LogoutPage e LogoutSteps
+
+3 - Executar os testes
+
+4 - Validar relatório Dinamico
