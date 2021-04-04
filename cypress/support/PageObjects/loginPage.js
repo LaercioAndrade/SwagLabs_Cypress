@@ -26,6 +26,15 @@ class TestPage{
         cy.screenshot()
     }
 
+    //CT02
+    preencherusernamebloq(){
+        cy.get(Elements.username()).type("locked_out_user")
+    }
+
+    mensagemuserbloq(){
+        cy.get(Elements.msguserbloq()).contains("Epic sadface: Sorry, this user has been locked out.")
+        cy.screenshot()
+    }
 }
 
 export default TestPage;
