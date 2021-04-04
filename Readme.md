@@ -48,3 +48,11 @@ Versão 1.0.2: "Confgurações do primeiro cenário"
 6 - Iniciar Test e validar se o test validou
 
 7 - Verificar Relatório e Screenshot
+
+Versão 1.0.3: "Configuração da Feature Login"
+
+1 - Criação dos cenarios
+
+2 - Configuração dos arquivos LoginElements, LoginPage e LoginSteps
+
+3 - Validar relatório Dinamico
