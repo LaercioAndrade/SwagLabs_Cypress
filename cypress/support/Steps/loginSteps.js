@@ -39,3 +39,25 @@ When("informo um usuario com problema", () => {
 Then("valido se o login e realizado com sucesso com as imagens dos produtos com erro", () => {
     Login.validarlogin();
 }) 
+
+//CT04 Usuario com tempo de espera
+When("informo um usuario com tempo de espera", () => {
+    Login.preencerusernametempoespera();
+    Login.preenchersenha();
+    Login.clicarbotaologin();
+})
+
+Then("valido se o login e realizado com sucesso apos um tempo de espera", () => {
+    Login.validarLoginTempEsp();
+})
+
+//CT05 Senha Invalida
+When("informo a senha incorreta", () => {
+    Login.preencherusername();
+    Login.senhaincorreta();
+    Login.clicarbotaologin();
+})
+    
+Then("valido se aparece a mensagem de senha incorreta", () => {
+    Login.msgsenhaincorreta();
+})

@@ -41,6 +41,26 @@ class TestPage{
         cy.get(Elements.username()).type("problem_user")
     }
 
+    //CT04
+    preencerusernametempoespera(){
+        cy.get(Elements.username()).type("performance_glitch_user")
+    }
+
+    validarLoginTempEsp(){
+        cy.wait(1000)
+        cy.screenshot()
+    }
+
+    //CT05
+    senhaincorreta(){
+        cy.get(Elements.password()).type("123")
+    }
+
+    msgsenhaincorreta(){
+        cy.get(Elements.msgsenhainv()).contains("Epic sadface: Username and password do not match any user in this service")
+    }
+
+
 }
 
 export default TestPage;

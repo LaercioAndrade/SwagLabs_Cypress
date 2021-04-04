@@ -16,4 +16,16 @@ Scenario: Mensagem de usuario bloqueado
 Scenario: Relizar Login com usuario com problema
     Given que acesso o site Swag Labs
     When  informo um usuario com problema
-    Then  valido se o login e realizado com sucesso com as imagens dos produtos com erro 
+    Then  valido se o login e realizado com sucesso com as imagens dos produtos com erro
+    
+@CT04 
+Scenario: Realizar login com tempo de espera
+    Given que acesso o site Swag Labs
+    When  informo um usuario com tempo de espera
+    Then  valido se o login e realizado com sucesso apos um tempo de espera
+
+@CT05
+Scenario: Informar Senha invalida
+    Given que acesso o site Swag Labs
+    When  informo a senha incorreta
+    Then  valido se aparece a mensagem de senha incorreta
